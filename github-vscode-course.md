@@ -107,13 +107,6 @@ Open VS Code terminal:
 ### B. Using Source Control
 Open the left sidebar and click the Source Control icon.
 
-### Screenshot placeholder
-
-Add a screenshot here showing the VS Code Source Control icon and terminal panel.
-
-```text
-[Screenshot: VS Code window with Source Control icon highlighted]
-```
 
 ---
 
@@ -133,14 +126,6 @@ Example:
 - create `index.html`
 - run `git init`
 - Git begins tracking the folder
-
-### Screenshot placeholder
-
-Add a screenshot of the terminal after running `git init`.
-
-```text
-[Screenshot: Terminal showing git init success message]
-```
 
 ---
 
@@ -170,14 +155,6 @@ Use `git status` before every commit. It helps you confirm:
 - which files are staged
 - whether anything unexpected is included
 
-### Screenshot placeholder
-
-Add a screenshot of the Source Control panel showing changed files.
-
-```text
-[Screenshot: Source Control panel listing modified files]
-```
-
 ---
 
 ## 7) Add files to staging
@@ -199,14 +176,6 @@ Staging means: "prepare these changes for the next commit."
 In VS Code Source Control:
 - hover a file
 - click the `+` icon to stage it
-
-### Screenshot placeholder
-
-Add a screenshot showing the plus icon next to a file.
-
-```text
-[Screenshot: File list with plus icon highlighted]
-```
 
 ---
 
@@ -240,13 +209,6 @@ Bad commit messages:
 2. Type commit message
 3. Click Commit
 
-### Screenshot placeholder
-
-Add a screenshot of the commit message box and commit button.
-
-```text
-[Screenshot: Source Control commit box with a message typed in]
-```
 
 ---
 
@@ -269,14 +231,6 @@ Example:
 ```bash
 origin  https://github.com/surya/my-project.git (fetch)
 origin  https://github.com/surya/my-project.git (push)
-```
-
-### Screenshot placeholder
-
-Add a screenshot of the GitHub repository page showing the repo URL.
-
-```text
-[Screenshot: GitHub repository page with clone URL highlighted]
 ```
 
 ---
@@ -303,14 +257,6 @@ It sets the upstream branch, so next time you can use:
 git push
 ```
 
-### Screenshot placeholder
-
-Add a screenshot of the VS Code push or sync status.
-
-```text
-[Screenshot: VS Code showing push/sync completed]
-```
-
 ---
 
 ## 11) Pull latest changes
@@ -324,14 +270,6 @@ This downloads changes from GitHub and merges them into your local branch.
 Use it when:
 - someone else updated the repo
 - you want the latest version before working
-
-### Screenshot placeholder
-
-Add a screenshot of a pull operation in VS Code or terminal.
-
-```text
-[Screenshot: Terminal showing git pull output]
-```
 
 ---
 
@@ -348,14 +286,6 @@ You can also use:
 - `Ctrl+Shift+P`
 - type `Git: Clone`
 - paste the repository URL
-
-### Screenshot placeholder
-
-Add a screenshot of the VS Code clone command palette.
-
-```text
-[Screenshot: Command Palette with Git: Clone selected]
-```
 
 ---
 
@@ -391,13 +321,6 @@ Example use:
 - `main` branch = stable code
 - `feature-login` branch = new login feature
 
-### Screenshot placeholder
-
-Add a screenshot of the branch selector in VS Code.
-
-```text
-[Screenshot: Branch name shown in VS Code status bar]
-```
 
 ---
 
@@ -411,14 +334,6 @@ git merge feature-login
 ```
 
 This combines branch changes.
-
-### Screenshot placeholder
-
-Add a screenshot showing a merge commit or merge result.
-
-```text
-[Screenshot: Terminal showing git merge result]
-```
 
 ---
 
@@ -439,14 +354,6 @@ This helps you see:
 - authors
 - messages
 
-### Screenshot placeholder
-
-Add a screenshot of `git log --oneline` output.
-
-```text
-[Screenshot: Terminal showing short commit history]
-```
-
 ---
 
 ## 16) See file changes
@@ -461,14 +368,6 @@ Compare staged changes:
 
 ```bash
 git diff --staged
-```
-
-### Screenshot placeholder
-
-Add a screenshot of the diff view in VS Code.
-
-```text
-[Screenshot: VS Code diff view with added and removed lines]
 ```
 
 ---
@@ -488,14 +387,6 @@ git restore --staged filename.txt
 ```
 
 Use carefully because you may lose changes.
-
-### Screenshot placeholder
-
-Add a screenshot showing the restore option in VS Code.
-
-```text
-[Screenshot: Source Control menu with discard/restore action]
-```
 
 ---
 
@@ -518,14 +409,6 @@ Example:
 - you need to switch branches quickly
 - stash saves your unfinished work
 
-### Screenshot placeholder
-
-Add a screenshot showing stash-related terminal output.
-
-```text
-[Screenshot: Terminal showing git stash save and git stash pop]
-```
-
 ---
 
 ## 19) Pull Request basics
@@ -539,14 +422,6 @@ Typical workflow:
 4. push to GitHub
 5. open a PR
 6. review and merge
-
-### Screenshot placeholder
-
-Add a screenshot of a GitHub pull request page.
-
-```text
-[Screenshot: GitHub PR page with branch comparison]
-```
 
 ---
 
@@ -585,10 +460,6 @@ Add a screenshot sequence here:
 - push completed
 - GitHub PR page
 
-```text
-[Screenshot sequence: VS Code workflow from edit to pull request]
-```
-
 ---
 
 <!-- pagebreak -->
@@ -610,13 +481,6 @@ Add a screenshot sequence here:
 | Merge | `git merge branch-name` |
 | View log | `git log --oneline` |
 
-### Screenshot placeholder
-
-Add a screenshot of a terminal command list or cheat sheet image.
-
-```text
-[Screenshot: Terminal with commonly used Git commands]
-```
 
 ### Printable command sheet
 
@@ -655,14 +519,6 @@ git push -u origin main
 - GitHub remote added
 - code uploaded
 
-### Screenshot placeholder
-
-Add screenshots for each stage of the first project:
-- empty folder
-- after `git init`
-- after commit
-- after push on GitHub
-
 ---
 
 ## 23) Practical example: feature branch
@@ -681,13 +537,6 @@ git push -u origin feature-contact-page
 
 Then create a PR on GitHub.
 
-### Screenshot placeholder
-
-Add screenshots of:
-- branch creation
-- branch push
-- pull request creation
-
 ---
 
 ## 24) Practical example: update from GitHub
@@ -699,10 +548,6 @@ git pull origin main
 ```
 
 This keeps your local copy updated.
-
-### Screenshot placeholder
-
-Add a screenshot of the pull result after syncing with GitHub.
 
 ---
 
@@ -728,10 +573,6 @@ Open Command Palette:
 Ctrl+Shift+P
 ```
 
-### Screenshot placeholder
-
-Add a screenshot of the Command Palette with Git commands listed.
-
 ---
 
 ## 26) Best practices
@@ -742,10 +583,6 @@ Add a screenshot of the Command Palette with Git commands listed.
 - pull before pushing
 - review changes before commit
 - avoid committing secrets like passwords or API keys
-
-### Screenshot placeholder
-
-Add a visual checklist or reminder card for best practices.
 
 ---
 
@@ -762,10 +599,6 @@ And for collaboration:
 ```text
 git pull -> edit -> commit -> push -> pull request
 ```
-
-### Screenshot placeholder
-
-Add a flow diagram image here showing the GitHub workflow.
 
 ---
 
@@ -792,7 +625,3 @@ If you learn the core commands in this guide, you can manage most GitHub project
 ### Final screenshot placeholder
 
 Add a summary screenshot showing VS Code, terminal, and GitHub together.
-
-```text
-[Screenshot: Final overview of VS Code connected to GitHub]
-```
