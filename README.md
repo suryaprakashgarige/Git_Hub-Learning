@@ -622,6 +622,3 @@ If you learn the core commands in this guide, you can manage most GitHub project
 - [ ] I can create and merge branches
 - [ ] I can open a pull request
 
-### Final screenshot placeholder
-
-Add a summary screenshot showing VS Code, terminal, and GitHub together.
